@@ -72,6 +72,7 @@ If you need to install Docker for AWS with an existing VPC, you need to do a few
 
 ### Prerequisites
 
+- This template does not support the us-gov-west-1 region
 - Access to an AWS account with permissions to use CloudFormation and creating the following objects. [Full set of required permissions](iam-permissions.md).
     - EC2 instances + Auto Scaling groups
     - IAM profiles
